@@ -13,8 +13,11 @@ Each folder represents a lecture and includes multiple Java programs focusing on
 
 CodingBlocksDSA/
 ├── lecture 1
+
 ├── lecture 2
+
 ├── lecture 3
+
 └── lecture 4
 
 ---
@@ -53,7 +56,7 @@ CodingBlocksDSA/
 
 4. Execute the program:
 
-  --> java FileName
+   --> java FileName
 
 ✨ Author
 

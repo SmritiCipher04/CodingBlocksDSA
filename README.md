@@ -12,6 +12,7 @@ Each folder represents a lecture and includes multiple Java programs focusing on
 ## 📂 Folder Structure
 
 CodingBlocksDSA/
+
 ├── lecture 1
 
 ├── lecture 2

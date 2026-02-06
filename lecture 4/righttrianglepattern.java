@@ -3,7 +3,7 @@ public class righttrianglepattern {
     //using for loop
     for (int i = 1; i <= 5; i++){
       for (int j = 1; j <= i; j++){
-        System.out.print("*");
+        System.out.print(" * ");
       }
       System.out.println();
     }
@@ -13,7 +13,7 @@ public class righttrianglepattern {
     while (k <= 5){
       int l = 1;
       while ( l <=k ){
-        System.out.print("*");
+        System.out.print("* ");
         l ++;
       }
       System.out.println();

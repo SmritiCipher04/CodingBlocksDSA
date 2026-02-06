@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class pattern6 {
+public class pattern9 {
   public static void main(String[] args) {
     
     Scanner sc = new Scanner(System.in);
@@ -20,7 +20,12 @@ public class pattern6 {
       //Star
       int j = 1;
       while ( j <= star){
-        System.out.print("* ");
+        if ( j % 2 == 0){
+          System.out.print("  ");
+        }
+        else{
+          System.out.print("* ");
+        }
         j++;
       }
       //next line update

@@ -21,7 +21,7 @@ public class pattern9 {
       int j = 1;
       while ( j <= star){
         if ( j % 2 == 0){
-          System.out.print("  ");
+          System.out.print("! ");
         }
         else{
           System.out.print("* ");

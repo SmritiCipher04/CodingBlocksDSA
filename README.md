@@ -78,7 +78,7 @@ Run:
 ```bash
 git add README.md
 git commit -m "Added README"
-git push
+git push origin main
 
 ```bash
 git clone https://github.com/SmritiCipher04/CodingBlocksDSA.git

@@ -21,6 +21,7 @@ public class pattern11 {
       row++;
 
     }
+    sc.close();
 
   }
 

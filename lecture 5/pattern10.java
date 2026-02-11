@@ -1,3 +1,17 @@
+/* Pattern to be printed
+
+
+* * * *  * * * *
+* * *      * * *
+* *          * *
+*              *
+
+*              *
+* *          * *
+* * *      * * *
+* * * *  * * * *
+
+ */
 import java.util.Scanner;
 
 public class pattern10 {
@@ -5,11 +19,11 @@ public class pattern10 {
     Scanner sc = new Scanner(System.in);
     System.out.print("enter no of rows: ");
     int n = sc.nextInt();
-    int star = 1;
-    int space = 2*n-3;
+    int star = n-1;
+    int space = 1;
     int row = 1;
 
-    while (row <= n){
+    while (row <= 2*n-1){
       //star
       int i = 1;
       while (i <= star){
@@ -23,9 +37,7 @@ public class pattern10 {
         System.out.print("  ");
         j++;
       }
-      if (row == n){
-        star --;
-      }
+      
       // star
       int k = 1;
       while (k <= star){
@@ -33,8 +45,14 @@ public class pattern10 {
         k++;
       }
       System.out.println();
-      star ++;
-      space -= 2;
+      if(row<n){
+      star --;
+      space += 2;
+    }
+    else{
+      star++;
+      space-=2;
+    }
       row ++;
     }
   }

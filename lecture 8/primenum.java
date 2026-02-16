@@ -21,3 +21,4 @@ public class primenum {
       sc.close();
   }
 }
+

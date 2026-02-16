@@ -1,4 +1,5 @@
-/*  Pattern of this code:            
+/*  Pattern of this code:
+
         * * * * * 
       * * * * 
     * * * 
@@ -8,6 +9,7 @@
     * * * 
       * * * * 
         * * * * * 
+        
 */              
 import java.util.Scanner;
 public class pattern13 {

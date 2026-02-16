@@ -1,0 +1,35 @@
+/*
+
+Pattern 5:
+    * * * *  * * * *
+    * * *      * * *
+    * *          * *
+    *              *
+
+*/
+public class pattern5 {
+    public static void main(String[] args) {
+
+        int n = 4;
+
+        for (int i = n; i >= 1; i--) {
+
+            // Left stars
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+
+            // Middle spaces
+            for (int s = 1; s <= 2 * (n - i); s++) {
+                System.out.print("  ");
+            }
+
+            // Right stars
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+
+            System.out.println();
+        }
+    }
+}

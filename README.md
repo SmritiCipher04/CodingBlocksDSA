@@ -25,7 +25,11 @@ CodingBlocksDSA/
 
 ├── lecture 6
 
-└── lecture 7
+├── lecture 8
+
+├── lecture 9
+
+└── lecture 10
 
 ---
 

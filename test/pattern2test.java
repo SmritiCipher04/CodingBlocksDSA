@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class pattern2 {
+public class pattern2test {
   public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     System.out.print("enter the value of n: ");

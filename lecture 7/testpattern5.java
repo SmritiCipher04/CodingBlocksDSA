@@ -7,7 +7,7 @@ Pattern 5:
     *              *
 
 */
-public class pattern5 {
+public class testpattern5 {
     public static void main(String[] args) {
 
         int n = 4;

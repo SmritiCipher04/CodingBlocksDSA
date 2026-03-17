@@ -1,4 +1,4 @@
-// Reverse an array (left shift)
+// Reverse an array
 
 public class reversearray {
   static void reverse(int arr[]) {

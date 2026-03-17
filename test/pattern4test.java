@@ -5,7 +5,7 @@
   * *           * *
   *               *
 */
-public class pattern4 {
+public class pattern4test {
   public static void main(String[] args) {
 
         int n = 5;          // total rows

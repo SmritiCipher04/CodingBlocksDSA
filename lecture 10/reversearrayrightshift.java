@@ -1,5 +1,6 @@
 // Reverse an array (right shift)
-public class reversearray1 {
+
+public class reversearrayrightshift {
   static void reverse(int arr[]) {
     int temp = arr[arr.length - 1];
     for (int i = arr.length - 1; i > 0; i--) {

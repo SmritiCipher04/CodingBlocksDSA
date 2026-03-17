@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class pattern1 {
+public class pattern1test {
   public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     System.out.print("enter the value of n: ");

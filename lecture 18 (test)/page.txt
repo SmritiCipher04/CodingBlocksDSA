@@ -1,0 +1,11 @@
+# Codingblocks
+
+test (13th may (friday)):
+1. right shift
+2. missing num
+3. trapping rainwater
+4. maximum subarray sum
+5. insertion sort
+6. selection sort 
+7. rotate array
+8. running sum

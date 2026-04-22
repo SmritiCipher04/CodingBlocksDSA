@@ -8,7 +8,7 @@ public class peakindex {
 
         int[] arr = new int[n];
 
-        System.out.print("Enter " + n + " elements:");
+        System.out.print("Enter "+ n +" elements:");
 
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();

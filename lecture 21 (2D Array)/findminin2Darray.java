@@ -1,0 +1,26 @@
+import java.util.*;
+public class findminin2Darray {
+  public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int m = sc.nextInt();
+      int n = sc.nextInt();
+      int[][] arr = new int[m][n];
+      for (int i = 0; i < m; i++) {
+          for (int j = 0; j < n; j++) {
+              arr[i][j] = sc.nextInt();
+          }
+      }
+      for (int i = 0; i < m; i++) {
+          System.out.println(Arrays.toString(arr[i]));
+      }
+      int min = Integer.MAX_VALUE;
+      for (int i = 0; i < m; i++) {
+          for (int j = 0; j < n; j++) {
+              if (arr[i][j] < min) {
+                  min = arr[i][j];
+              }
+          }
+      }
+      System.out.println(min);
+  }
+}

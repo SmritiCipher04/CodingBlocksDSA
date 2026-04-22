@@ -1,4 +1,4 @@
-
+//leetcode 42. Trapping Rain Water. link: https://leetcode.com/problems/trapping-rain-water/
 public class trappingrainwater {
     public static void main(String[] args) {
 
